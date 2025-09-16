@@ -24,7 +24,6 @@ with open(sys.argv[1], 'r', encoding='utf-8') as handle:
 if 'scripts' not in data or 'lint' not in data['scripts']:
     raise SystemExit(1)
 PY
-then
   echo "Error: package.json does not define an npm 'lint' script." >&2
   exit 1
 fi

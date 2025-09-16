@@ -1,0 +1,10 @@
+{
+  "name": "simple-tower-defense-game",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Tooling placeholder for project automation scripts.",
+  "scripts": {
+    "lint": "node -e \"console.log('No lint step configured yet.');\"",
+    "test": "node -e \"console.log('No tests defined.');\""
+  }
+}
